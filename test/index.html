@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DefferedJS Test</title>
+    <!-- DEFFERED JS -->
+    <link rel="stylesheet" data-href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"/>
+    <!-- DEFFERED JS -->
+</head>
+<body>
+    <div class="ui card">
+        <div class="image">
+          <img data-src="https://semantic-ui.com/images/avatar2/large/kristy.png">
+        </div>
+        <div class="content">
+          <a class="header">Kristy</a>
+          <div class="meta">
+            <span class="date">Joined in 2013</span>
+          </div>
+          <div class="description">
+            Kristy is an art director living in New York.
+          </div>
+        </div>
+        <div class="extra content">
+          <a>
+            <i class="user icon"></i>
+            22 Friends
+          </a>
+        </div>
+      </div>
+    <!-- DEFFERED JS -->
+    <script data-src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script data-src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+    
+    <!-- DEFFERED JS -->
+    <script src="../dist/defferedjs.min.js"></script>
+    <script>
+        var deffered = new DefferedJS("DOMContentLoaded");
+    </script>
+</body>
+</html>
